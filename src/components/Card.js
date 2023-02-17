@@ -54,8 +54,10 @@ const Container = styled.div`
 `;
 const Image = styled.div`
   width: 100%;
+
   display: flex;
   flex-direction: column;
+
   justify-content: center;
   align-items: center;
   margin-top: 20px;
@@ -72,13 +74,16 @@ const Description = styled.div`
   flex-direction: column;
   justify-content: space-evenly;
   flex: 0.7;
+
   h5 {
     font-size: 16px;
     font-weight: 600;
   }
+
   p {
     font-weight: 600;
   }
+
   button {
     width: 100%;
     height: 33px;

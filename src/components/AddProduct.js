@@ -96,11 +96,13 @@ const FormContainer = styled.form`
   align-items: center;
   justify-content: center;
   padding: 15px;
+
   h3 {
     font-size: 28px;
     font-weight: 400;
     line-height: 33px;
     align-self: flex-start;
+
     margin-bottom: 10px;
   }
 `;
@@ -108,10 +110,12 @@ const FormContainer = styled.form`
 const InputContainer = styled.div`
   width: 100%;
   padding: 10px;
+
   p {
     font-size: 14px;
     font-weight: 600;
   }
+
   input {
     width: 95%;
     height: 33px;
@@ -119,6 +123,7 @@ const InputContainer = styled.div`
     border-radius: 5px;
     border: 1px solid lightgray;
     margin-top: 5px;
+
     &:hover {
       border: 1px solid palevioletred;
     }

@@ -134,6 +134,7 @@ function Payment() {
 
 const Container = styled.div`
   width: 100%;
+
   max-width: 1400px;
   background-color: rgb(234, 237, 237);
 `;
@@ -141,6 +142,7 @@ const Container = styled.div`
 const Main = styled.div`
   padding: 15px;
   display: flex;
+
   @media only screen and (max-width: 1200px) {
     flex-direction: column;
   }
@@ -162,6 +164,7 @@ const AddressContainer = styled.div`
   div {
     margin-top: 10px;
     margin-left: 10px;
+
     p {
       font-size: 14px;
       margin-top: 4px;
@@ -171,9 +174,11 @@ const AddressContainer = styled.div`
 
 const PaymentContainer = styled.div`
   margin-top: 15px;
+
   div {
     margin-top: 15px;
     margin-left: 15px;
+
     p {
       font-size: 14px;
     }
@@ -197,14 +202,17 @@ const Image = styled.div`
 `;
 const Description = styled.div`
   flex: 0.7;
+
   h4 {
     font-weight: 600;
     font-size: 18px;
   }
+
   p {
     font-weight: 600;
     margin-top: 10px;
   }
+
   button {
     background-color: transparent;
     color: #1384b4;
@@ -226,6 +234,7 @@ const Subtotal = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
   @media only screen and (max-width: 1200px) {
     flex: none;
     margin-top: 20px;
@@ -233,14 +242,17 @@ const Subtotal = styled.div`
   p {
     font-size: 20px;
   }
+
   small {
     display: flex;
     align-items: center;
     margin-top: 10px;
+
     span {
       margin-left: 10px;
     }
   }
+
   button {
     width: 65%;
     height: 33px;
@@ -249,6 +261,7 @@ const Subtotal = styled.div`
     background-color: rgb(244, 51, 151);
     border: none;
     outline: none;
+
     border-radius: 8px;
   }
 `;

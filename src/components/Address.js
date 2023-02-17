@@ -107,8 +107,10 @@ const Container = styled.div`
   width: 100%;
   height: fit-content;
   max-width: 1400px;
+
   margin: auto;
   background-color: rgb(234, 237, 237);
+
   position: relative;
 `;
 
@@ -128,6 +130,7 @@ const FormContainer = styled.form`
   padding: 15px;
   background-color: #fff;
   margin: auto;
+
   button {
     align-self: flex-start;
     height: 33px;
@@ -145,10 +148,12 @@ const FormContainer = styled.form`
 const InputContainer = styled.div`
   width: 100%;
   padding: 10px;
+
   p {
     font-size: 14px;
     font-weight: 600;
   }
+
   input {
     width: 95%;
     height: 33px;
@@ -156,6 +161,7 @@ const InputContainer = styled.div`
     border-radius: 5px;
     border: 1px solid lightgray;
     margin-top: 5px;
+
     &:hover {
       border: 1px solid palevioletred;
     }

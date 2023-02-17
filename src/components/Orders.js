@@ -68,6 +68,7 @@ const Container = styled.div`
   width: 100%;
   height: fit-content;
   max-width: 1400px;
+
   margin: auto;
   background-color: rgb(234, 237, 237);
 `;
@@ -81,8 +82,10 @@ const Main = styled.div`
 
 const OrderContainer = styled.div`
   padding: 15px;
+
   background-color: #fff;
   width: 95%;
+
   h2 {
     font-weight: 500;
     border-bottom: 1px solid lightgray;
@@ -97,9 +100,11 @@ const OrderDetail = styled.div`
 
 const AddressComponent = styled.div`
   margin-top: 20px;
+
   div {
     margin-top: 10px;
     margin-left: 10px;
+
     p {
       font-size: 14px;
       margin-top: 4px;
@@ -109,10 +114,12 @@ const AddressComponent = styled.div`
 
 const OrderBasket = styled.div`
   margin-top: 20px;
+
   p {
     font-size: 15px;
     margin-left: 15px;
     margin-top: 15px;
+
     span {
       font-weight: 600;
     }
@@ -132,17 +139,21 @@ const Image = styled.div`
 `;
 const Description = styled.div`
   flex: 0.7;
+
   h4 {
     font-weight: 600;
     font-size: 18px;
+
     @media only screen and (max-width: 1200px) {
       font-size: 14px;
     }
   }
+
   p {
     font-weight: 600;
     margin-top: 10px;
   }
+
   button {
     background-color: transparent;
     color: #1384b4;

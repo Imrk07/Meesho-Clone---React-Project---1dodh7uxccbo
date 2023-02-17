@@ -65,6 +65,7 @@ const Container = styled.div`
   top: 0;
   z-index:2000;
   position:fixed;
+
   @media only screen and (max-width: 767px) {
     height: 120px;
     flex-direction: column;
@@ -74,6 +75,7 @@ const Inner = styled.div`
   width: 100%;
   display: flex;
   align-items: center;
+
   @media only screen and (max-width: 767px) {
     justify-content: space-between;
   }
@@ -93,15 +95,18 @@ const SearchBar = styled.div`
   margin: 0px 15px;
   display: flex;
   align-items: center;
+
   input {
     flex: 1;
     width: 100%;
     height: 86%;
     border-radius: 5px 0px 0px 5px;
+
     &::placeholder {
       padding-left: 5px;
     }
   }
+
   @media only screen and (max-width: 767px) {
     display: none;
   }
@@ -113,15 +118,18 @@ const MobileSearchbar = styled.div`
   display: flex;
   align-items: center;
   padding: 10px;
+
   input {
     flex: 1;
     width: 100%;
     height: 100%;
     border-radius: 5px 0px 0px 5px;
+
     &::placeholder {
       padding-left: 10px;
     }
   }
+
   @media only screen and (min-width: 768px) {
     display: none;
   }
@@ -134,6 +142,7 @@ const SearchIcon = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+
   border-radius: 0px 5px 5px 0px;
   img {
     width: 22px;
@@ -157,10 +166,12 @@ const NavButton = styled.div`
   justify-content: center;
   cursor: pointer;
   margin-right: 15px;
+
   p {
     &:nth-child(1) {
       font-size: 16px;
     }
+
     &:nth-child(2) {
       font-size: 14px;
       font-weight: 600;
@@ -179,6 +190,7 @@ const BasketButton = styled.div`
     margin-right: 10px;
     color: blue;
   }
+
   p {
     color: black;
     font-weight: 500;
